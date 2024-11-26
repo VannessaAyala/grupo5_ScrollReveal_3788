@@ -1,0 +1,68 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: linear-gradient(90deg, #FFD700, #003cff, #FF4500 );
+    color: #FFFFFF; 
+}
+
+h1, h2 {
+    color: #000000; 
+}
+
+p {
+    color: #FFFFFF; 
+}
+
+.btn {
+    background-color: transparent;
+    border: 1px solid #000000; 
+    color: #000000; 
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #32CD32; 
+    color: #FFFFFF; 
+}
+
+#testimonial, #info-one, #info-two {
+    background: linear-gradient(90deg, #FFD700, #003cff, #FF4500 );
+    color: #FFFFFF;
+}
+
+footer {
+    background: url(../img/img4.webp) no-repeat center center fixed;
+    background-size: cover;
+    color: #FFFFFF; 
+}
+
+input[type="text"], input[type="email"], textarea {
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid #32CD32; 
+    color: #000000; 
+}
+
+.social-icons a {
+    color: #32CD32; 
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #FFFFFF; 
+}
+footer {
+    background: url(../img/img4.webp) no-repeat center center fixed;
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer form {
+    width: 120%;
+    max-width: 700px;
+    margin: auto;
+}
